@@ -19,16 +19,16 @@ var width = 600
   , textTarget = false
 
 var colors = {
-      links: 'FAFAFA'
+      links: '#FAFAFA'
     , text: {
-        subtitle: 'FAFAFA'
+        subtitle: '#FAFAFA'
     }
     , nodes: {
         method: function(d) {
             return groups[d.group].color
         }
-        , hover: 'FAFAFA'
-        , dep: '252929'
+        , hover: '#FAFAFA'
+        , dep: '#252929'
     }
 }
 
