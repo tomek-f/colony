@@ -5,6 +5,11 @@ dependencies.
 
 ![Colony](http://hughsk.github.com/colony/img/screenshot-semi.png)
 
+## Fixed
+
+* lines
+* colors
+
 ## Installation
 
 ``` bash
