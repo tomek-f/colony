@@ -13,16 +13,16 @@ dependencies.
 ## Installation
 
 ``` bash
-$ [sudo] npm install -g colony
+$ [sudo] npm install -g colony-fixed
 ```
 
 ## Quick Start
 
 ``` bash
 # Install colony and serve
-$ [sudo] npm install -g serve colony
+$ [sudo] npm install -g serve colony-fixed
 # Download and visualise "browserify" from NPM
-$ colony --npm browserify && serve colony
+$ colony-fork --npm browserify && serve colony
 # Open localhost:3000 in your web browser
 $ open http://localhost:3000/
 ```
