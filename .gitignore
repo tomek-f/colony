@@ -1,5 +1,6 @@
 .DS_Store
 
+.idea/
 /colony
 /node_modules
 
