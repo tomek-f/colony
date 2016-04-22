@@ -3,7 +3,7 @@
   "version": "0.0.8",
   "main": "index.js",
   "bin": {
-    "colony-fork": "bin/colony"
+    "colony-fixed": "bin/colony"
   },
   "scripts": {
     "test": "echo \"Sorry, no tests as of yet!\" && exit 1",
