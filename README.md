@@ -22,7 +22,7 @@ $ [sudo] npm install -g colony-fixed
 # Install colony and serve
 $ [sudo] npm install -g serve colony-fixed
 # Download and visualise "browserify" from NPM
-$ colony-fork --npm browserify && serve colony
+$ colonyfixed --npm browserify && serve colony
 # Open localhost:3000 in your web browser
 $ open http://localhost:3000/
 ```
@@ -30,7 +30,7 @@ $ open http://localhost:3000/
 ## Using the Command-Line Interface
 
 ```
-Usage: colony {files} --npm {modules}
+Usage: colonyfixed {files} --npm {modules}
 
 Options:
   -o, --outdir   Output files to a particular folder                                     [default: "./colony"]
@@ -47,7 +47,7 @@ Options:
 The simplest way to use `colony` from the command-line would be:
 
 ``` bash
-$ colony app.js -o colony
+$ colonyfixed app.js -o colony
 ```
 
 This will traverse `app.js`'s dependencies and dump the necessary static
@@ -60,7 +60,7 @@ For convenience, you can download and visualise any combination of NPM modules
 too:
 
 ``` bash
-$ colony --npm forever --npm component --npm browserify -o colony-npm
+$ colonyfixed --npm forever --npm component --npm browserify -o colony-npm
 ```
 
 ## Development
